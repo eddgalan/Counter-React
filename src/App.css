@@ -24,3 +24,12 @@ html, body {
 .logo {
   height: 85px;
 }
+/*
+.main-container {
+  height: 550px;
+  min-width: 600px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} */
