@@ -1,10 +1,12 @@
 import React from 'react';
 import './button.css';
 
-function ButtonRect({text, type, actionClick}) {
-  return (
-    <button className={ type } onClick={ actionClick } > {text} </button>
-  )
+class ButtonReact extends React.Component {
+  render() {
+    return(
+      <button className={ this.props.type } onClick={ this.props.actionClick } > {this.props.text} </button>
+    );
+  }
 }
 
-export default ButtonRect;
+export default ButtonReact;

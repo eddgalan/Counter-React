@@ -1,12 +1,14 @@
 import React from 'react';
 import './counter.css';
 
-function Counter( { numClicks } ) {
-  return (
-    <div className="counter text-center">
-      { numClicks }
-    </div>
-  )
+class Counter extends React.Component {
+  render() {
+    return (
+      <div className="counter text-center">
+        { this.props.numClicks }
+      </div>
+    )
+  }
 }
 
 export default Counter;
